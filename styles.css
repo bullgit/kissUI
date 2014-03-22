@@ -1,0 +1,123 @@
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script|Monda|Varela+Round);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+body {
+  margin: 0;
+  animation: 3s kisssssss forwards;
+  background: #f5f3e2;
+}
+
+.kissUI {
+  background: #ff6861;
+  border-bottom: 0.10em solid #f3625b;
+  color: #fff;
+  font-family: 'Oleo Script', cursive;
+  font-size: 2.28em;
+  text-align: center;
+  padding: 0.80em 0em;
+  margin: 0px;
+  filter: dropshadow(color=#ff6861, offx=0, offy=2);
+}
+
+.kissUI_footer {
+  background: #f5f1e8;
+  border-bottom: 0.10em solid #f3625b;
+  color: #333;
+  font-family: 'Oleo Script', cursive;
+  font-size: 2.28em;
+  text-align: center;
+  margin: 0;
+  filter: dropshadow(color=#ff6861, offx=0, offy=2);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(105, 105, 105, 0.88);
+  transition: color .3s ease;
+}
+a:hover {
+  color: #fc6e51;
+}
+
+h2 {
+  font-family: "Varela Round", Sans-Serif;
+  font-size: 1.3em;
+  color: #669ae1;
+  margin: 0.4em auto 1em;
+}
+
+#tw--mrjopino { 
+  position: relative;
+  margin: 2% auto;
+  color: #55acee;
+  font-size: 2em;
+  text-align: center;
+}
+
+#tw--mrjopino, #git--mrjopino:hover {
+  color: #39c;
+}
+/* buttons kissUI */
+
+@keyframes kisssssss {
+  0% { 
+    opacity: 0;
+    transform: translateX(0); 
+  }
+
+  50% {
+    opacity: .25;
+    transform: translateX(-1em) scale(0.1, 0); 
+  }
+}
+@-webkit-keyframes kisssssss {
+  0% { 
+    opacity: 0;
+    transform: translateX(0); 
+  }
+
+  50% {
+    opacity: .25;
+    transform: translateX(-1em) scale(0.1, 0); 
+  }
+}
+
+@-moz-keyframes kisssssss {
+  0% { 
+    opacity: 0;
+    transform: translateX(0); 
+  }
+
+  50% {
+    opacity: .25;
+    transform: translateX(-1em) scale(0.1, 0); 
+  }
+}
+
+@-ms-keyframes kisssssss {
+  0% { 
+    opacity: 0;
+    transform: translateX(0); 
+  }
+
+  50% {
+    opacity: .25;
+    transform: translateX(-1em) scale(0.1, 0); 
+  }
+}
+
+@-o-keyframes kisssssss {
+  0% { 
+    opacity: 0;
+    transform: translateX(0); 
+  }
+
+  50% {
+    opacity: .25;
+    transform: translateX(-1em) scale(0.1, 0); 
+  }
+}
